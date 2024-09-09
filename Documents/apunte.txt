@@ -1,0 +1,32 @@
+/-Create new project
+dotnet new webapi --use-controllers -o <Project name>
+dotnet new webapi --use-controllers -o TodoApi
+
+
+Add gitignore
+dotnet new gitignore
+
+
+Add dependencies
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Pomelo.EntityFrameworkCore.MySql
+
+
+Run your project
+Just run
+dotnet run
+
+
+inside browser
+Swagger
+<https://localhost>:<port>/swagger/index.html
+
+
+
+Request URL
+<https://localhost>:<port>/<controller>
+<https://localhost>:<port>/weatherforecast
+
+dotnet add package Dapper
+dotnet add package MySql.Data
+mysql -u usuario -p base_de_datos < procedimientos.sql
